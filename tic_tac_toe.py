@@ -55,7 +55,165 @@ def scorekeeper():
 	     score = (n + 1)
 	     PlayerX.set(score)
 	     tkinter.messagebox.showinfor("Winner X", "You are FAST as WIND")
+	global click
+	if buttons["text"] == " " and click == True:
+		buttons["text"] = "X"
+		click = False
+	elif buttons["text"] == " " and click == False:
+		buttons["text"] = "0"
+		click = True
 
+
+def scorekeeper():
+	if(button1["text"]=="X") and (button2["text"]=="X") and (button3["text"]=="X"):
+	    button1.configure(background ="powder blue")
+	    button2.configure(background ="powder blue")
+	    button3.configure(background ="powder blue")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    PlayerX.set(score)
+	    tkinter.messagebox.showinfo("Winner X", "You are Fast as Windddddd!")
+
+	if(button4["text"]=="X") and (button5["text"]=="X") and (button6["text"]=="X"):
+	    button4.configure(background ="Red")
+	    button5.configure(background ="Red")
+	    button6.configure(background ="Red")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    PlayerX.set(score)
+	    tkinter.messagebox.showinfo("Winner X", "You are Fast as Windddddd!")
+
+	if(button7["text"]=="X") and (button8["text"]=="X") and (button9["text"]=="X"):
+	    button7.configure(background ="cadet blue")
+	    button8.configure(background ="cadet blue")
+	    button9.configure(background ="cadet blue")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    PlayerX.set(score)
+	    tkinter.messagebox.showinfo("Winner X", "You are Fast as Windddddd!")
+
+	if(button3["text"]=="X") and (button5["text"]=="X") and (button7["text"]=="X"):
+	    button3.configure(background ="cadet blue")
+	    button5.configure(background ="cadet blue")
+	    button7.configure(background ="cadet blue")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    PlayerX.set(score)
+	    tkinter.messagebox.showinfo("Winner X", "You are Fast as Windddddd!")
+
+	if(button1["text"]=="X") and (button5["text"]=="X") and (button9["text"]=="X"):
+	    button1.configure(background ="Red")
+	    button5.configure(background ="Red")
+	    button9.configure(background ="Red")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    PlayerX.set(score)
+	    tkinter.messagebox.showinfo("Winner X", "You are Fast as Windddddd!")
+
+	if(button1["text"]=="X") and (button4["text"]=="X") and (button7["text"]=="X"):
+	    button1.configure(background ="yellow")
+	    button4.configure(background ="yellow")
+	    button7.configure(background ="yellow")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    PlayerX.set(score)
+	    tkinter.messagebox.showinfo("Winner X", "You are Fast as Windddddd!")
+
+	if(button2["text"]=="X") and (button5["text"]=="X") and (button8["text"]=="X"):
+	    button2.configure(background ="pink")
+	    button5.configure(background ="pink")
+	    button8.configure(background ="pink")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    PlayerX.set(score)
+	    tkinter.messagebox.showinfo("Winner X", "You are Fast as Windddddd!")
+
+	if(button3["text"]=="X") and (button6["text"]=="X") and (button9["text"]=="X"):
+	    button3.configure(background ="cadet blue")
+	    button6.configure(background ="cadet blue")
+	    button9.configure(background ="cadet blue")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    PlayerX.set(score)
+	    tkinter.messagebox.showinfo("Winner X", "You are Fast as Windddddd!")
+
+
+
+
+
+
+
+	if(button1["text"]=="0") and (button2["text"]=="0") and (button3["text"]=="0"):
+	    button1.configure(background ="Orange")
+	    button2.configure(background ="Orange")
+	    button3.configure(background ="Orange")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    Player0.set(score)
+	    tkinter.messagebox.showinfo("Winner 0", "You are Fast as Windddddd!")
+
+	if(button4["text"]=="0") and (button5["text"]=="0") and (button6["text"]=="0"):
+	    button4.configure(background ="blue")
+	    button5.configure(background ="blue")
+	    button6.configure(background ="blue")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    Player0.set(score)
+	    tkinter.messagebox.showinfo("Winner 0", "You are Fast as Windddddd!")
+
+	if(button7["text"]=="0") and (button8["text"]=="0") and (button9["text"]=="0"):
+	    button7.configure(background ="Green")
+	    button8.configure(background ="Green")
+	    button9.configure(background ="Green")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    Player0.set(score)
+	    tkinter.messagebox.showinfo("Winner 0", "You are Fast as Windddddd!")
+
+	if(button3["text"]=="0") and (button5["text"]=="0") and (button7["text"]=="0"):
+	    button3.configure(background ="cadet blue")
+	    button5.configure(background ="cadet blue")
+	    button7.configure(background ="cadet blue")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    Player0.set(score)
+	    tkinter.messagebox.showinfo("Winner 0", "You are Fast as Windddddd!")
+
+	if(button1["text"]=="0") and (button5["text"]=="0") and (button9["text"]=="0"):
+	    button1.configure(background ="Orange")
+	    button5.configure(background ="Orange")
+	    button9.configure(background ="Orange")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    Player0.set(score)
+	    tkinter.messagebox.showinfo("Winner 0", "You are Fast as Windddddd!")
+
+	if(button1["text"]=="0") and (button4["text"]=="0") and (button7["text"]=="0"):
+	    button1.configure(background ="powder blue")
+	    button4.configure(background ="powder blue")
+	    button7.configure(background ="powder blue")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    Player0.set(score)
+	    tkinter.messagebox.showinfo("Winner 0", "You are Fast as Windddddd!")
+
+	if(button2["text"]=="0") and (button5["text"]=="0") and (button8["text"]=="0"):
+	    button2.configure(background ="cadet blue")
+	    button5.configure(background ="cadet blue")
+	    button8.configure(background ="cadet blue")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    Player0.set(score)
+	    tkinter.messagebox.showinfo("Winner 0", "You are Fast as Windddddd!")
+
+	if(button3["text"]=="0") and (button6["text"]=="0") and (button9["text"]=="0"):
+	    button3.configure(background ="Red")
+	    button6.configure(background ="Red")
+	    button9.configure(background ="Red")
+	    n = float(PlayerX.get())
+	    score = (n + 1)
+	    Player0.set(score)
+	    tkinter.messagebox.showinfo("Winner 0", "You are Fast as Windddddd!")
 
 def reset():
 	button1['text']=" "
